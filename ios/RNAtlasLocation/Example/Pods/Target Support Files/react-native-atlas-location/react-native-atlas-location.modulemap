@@ -1,0 +1,6 @@
+framework module react_native_atlas_location {
+  umbrella header "react-native-atlas-location-umbrella.h"
+
+  export *
+  module * { export * }
+}

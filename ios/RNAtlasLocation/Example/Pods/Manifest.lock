@@ -1,16 +1,16 @@
 PODS:
-  - RNAtlasLocation (0.1.0)
+  - react-native-atlas-location (0.1.0)
 
 DEPENDENCIES:
-  - RNAtlasLocation (from `../`)
+  - react-native-atlas-location (from `../../../`)
 
 EXTERNAL SOURCES:
-  RNAtlasLocation:
-    :path: "../"
+  react-native-atlas-location:
+    :path: "../../../"
 
 SPEC CHECKSUMS:
-  RNAtlasLocation: 0a7f067c56749b480e90bec7415aeb3a2361e3f7
+  react-native-atlas-location: 1487a7c49b72bd5e240dd0b5815f3fd476c72e75
 
-PODFILE CHECKSUM: af744e979ca68bc8a452a6a84d9c362154cfb646
+PODFILE CHECKSUM: 0192a8aba6b937d2134a14570aaefebda31b4cfb
 
 COCOAPODS: 1.2.0

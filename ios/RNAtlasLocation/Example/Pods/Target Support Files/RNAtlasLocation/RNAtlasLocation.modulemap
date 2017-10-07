@@ -1,6 +1,0 @@
-framework module RNAtlasLocation {
-  umbrella header "RNAtlasLocation-umbrella.h"
-
-  export *
-  module * { export * }
-}

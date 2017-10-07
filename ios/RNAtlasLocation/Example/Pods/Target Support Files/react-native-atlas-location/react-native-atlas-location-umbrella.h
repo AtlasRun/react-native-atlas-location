@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double RNAtlasLocationVersionNumber;
-FOUNDATION_EXPORT const unsigned char RNAtlasLocationVersionString[];
+FOUNDATION_EXPORT double react_native_atlas_locationVersionNumber;
+FOUNDATION_EXPORT const unsigned char react_native_atlas_locationVersionString[];
 
