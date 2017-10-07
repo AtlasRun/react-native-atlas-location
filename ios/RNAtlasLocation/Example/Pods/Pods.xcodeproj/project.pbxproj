@@ -7,16 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C30DF3B8877D993CD2C0324D19C84E1 /* Pods-RNAtlasLocation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E412FFCB9B8C754E4132DD0C74FD03E /* Pods-RNAtlasLocation_Tests-dummy.m */; };
-		422AC076D9010ACA6B4E9477F13B793E /* Pods-RNAtlasLocation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9880FED4AF79B95420A8BBAD2D8473F9 /* Pods-RNAtlasLocation_Example-dummy.m */; };
-		6A96326CECB7492E66D361BC7E35314D /* Pods-RNAtlasLocation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9AAAD494EF2997750D70DED46B0BE6 /* Pods-RNAtlasLocation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		422AC076D9010ACA6B4E9477F13B793E /* Pods-RNAtlasLocation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00776EDEB1FF42874D33A6F805F52FBE /* Pods-RNAtlasLocation_Example-dummy.m */; };
 		71C0A15D37E278E065589C5B0678138E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8876EB90B2EE83F27610FF411E3D50F5 /* react-native-atlas-location-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A635AB5A1D904279AE3532F8D49F06E /* react-native-atlas-location-dummy.m */; };
 		9A62065F1515B58FF72184D48EF61771 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A5F7FAE2D9AB3774DF0DC46E363016FD /* react-native-atlas-location-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 535B010920C0B5A4364C11AFF4C2C080 /* react-native-atlas-location-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE5E8381845D834CAEBA11079DAB8E1C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9712C8ABBC0E672D86780735C8E53FEE /* Location.swift */; };
-		C2D15DAE03BE69030F19235C08931369 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D75FA00C554AA9B41157FBF737ADC9CA /* Pods-RNAtlasLocation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D99D417D16AAF56A020921A4182E48 /* Pods-RNAtlasLocation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D75FA00C554AA9B41157FBF737ADC9CA /* Pods-RNAtlasLocation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC24782D39E793A18AD15E9AA06935EF /* Pods-RNAtlasLocation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,38 +27,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03B96746A2E29F59C192B87E25668211 /* Pods-RNAtlasLocation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNAtlasLocation_Example-frameworks.sh"; sourceTree = "<group>"; };
-		175DD0C380F6CFBEE35D6544A1E8474D /* Pods-RNAtlasLocation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNAtlasLocation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		00776EDEB1FF42874D33A6F805F52FBE /* Pods-RNAtlasLocation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNAtlasLocation_Example-dummy.m"; sourceTree = "<group>"; };
+		114DB0770960778EE9731D8454BFC09D /* Pods-RNAtlasLocation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNAtlasLocation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1A635AB5A1D904279AE3532F8D49F06E /* react-native-atlas-location-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "react-native-atlas-location-dummy.m"; sourceTree = "<group>"; };
-		1FA48C22DF3734D9E50578AD59F45EF4 /* Pods-RNAtlasLocation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNAtlasLocation_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2E9AAAD494EF2997750D70DED46B0BE6 /* Pods-RNAtlasLocation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RNAtlasLocation_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2F92FE43F4EB84914744F8A9B1C2622A /* Pods-RNAtlasLocation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNAtlasLocation_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1B569DE596A5548989F71E69702D0863 /* Pods-RNAtlasLocation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RNAtlasLocation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		32DC3BE6C963FC8406042930BCF0E692 /* Pods-RNAtlasLocation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNAtlasLocation_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4D2A52BBA11B1BC5872E208BEEC3C8CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DC70F396675D4F9EC495D74915F4305 /* Pods-RNAtlasLocation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNAtlasLocation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		527F17EA62ABAB8BF0F38C580A433BB3 /* Pods-RNAtlasLocation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNAtlasLocation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		535B010920C0B5A4364C11AFF4C2C080 /* react-native-atlas-location-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "react-native-atlas-location-umbrella.h"; sourceTree = "<group>"; };
-		5713C2743DA538BDA56C004EFDE3A3F9 /* Pods-RNAtlasLocation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNAtlasLocation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5DE937ADA368CE4A408CF7C4E6D98448 /* Pods-RNAtlasLocation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RNAtlasLocation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5E412FFCB9B8C754E4132DD0C74FD03E /* Pods-RNAtlasLocation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNAtlasLocation_Tests-dummy.m"; sourceTree = "<group>"; };
-		60EA97AE6EDED93DD203CFE8343EBC63 /* react_native_atlas_location.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = react_native_atlas_location.framework; path = "react-native-atlas-location.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D98929D1BDFF7B567403F8F60053C5 /* Pods-RNAtlasLocation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNAtlasLocation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		61CF1B4A2D1EDF3AFADF1C5B38335C62 /* Pods-RNAtlasLocation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNAtlasLocation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75A04209CFC953C589E2F214D7963901 /* Pods_RNAtlasLocation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RNAtlasLocation_Example.framework; path = "Pods-RNAtlasLocation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		766AE213322EBE22E3E4E08AA3A779E6 /* Pods-RNAtlasLocation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RNAtlasLocation_Tests.modulemap"; sourceTree = "<group>"; };
-		84F447ABA3F31B933AC39AED9E0A424E /* Pods-RNAtlasLocation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNAtlasLocation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		91990FDD9762C5770E80B74DCDD0E28A /* Pods_RNAtlasLocation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RNAtlasLocation_Tests.framework; path = "Pods-RNAtlasLocation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B7D2A2227631FF89B3FF70D1BF7546 /* Pods_RNAtlasLocation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RNAtlasLocation_Example.framework; path = "Pods-RNAtlasLocation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C775A16A87A34926095E4809923ED2 /* react-native-atlas-location-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "react-native-atlas-location-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9712C8ABBC0E672D86780735C8E53FEE /* Location.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		9880FED4AF79B95420A8BBAD2D8473F9 /* Pods-RNAtlasLocation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNAtlasLocation_Example-dummy.m"; sourceTree = "<group>"; };
-		AA825896A46BA6F1336EB4614B5F66C4 /* Pods-RNAtlasLocation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RNAtlasLocation_Example.modulemap"; sourceTree = "<group>"; };
 		AAD6CD0C9CEEFA40FBB39366EEC45B65 /* react-native-atlas-location.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "react-native-atlas-location.modulemap"; sourceTree = "<group>"; };
-		CE42A2EBB489C942738CF0BC43B3B0BB /* Pods-RNAtlasLocation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RNAtlasLocation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D0D99D417D16AAF56A020921A4182E48 /* Pods-RNAtlasLocation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RNAtlasLocation_Example-umbrella.h"; sourceTree = "<group>"; };
-		D52669DC3F7736B7C349C295918BC801 /* Pods-RNAtlasLocation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNAtlasLocation_Example-resources.sh"; sourceTree = "<group>"; };
-		D60A89DE2410C7A6CD59A4B8F1673DDF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E05E2FC00EE95526E91663FA32378910 /* Pods-RNAtlasLocation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNAtlasLocation_Tests-resources.sh"; sourceTree = "<group>"; };
-		EC6A993C43FBF4DA54F0608A97A13152 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3E8421D5AA09FD699A40AFD15E314B5 /* react_native_atlas_location.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = react_native_atlas_location.framework; path = "react-native-atlas-location.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5CFC02DF3F9BDC05B9F19B37446934F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDBA5C56EF5C53261E4383E73F88351 /* Pods-RNAtlasLocation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RNAtlasLocation_Example.modulemap"; sourceTree = "<group>"; };
+		EC24782D39E793A18AD15E9AA06935EF /* Pods-RNAtlasLocation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RNAtlasLocation_Example-umbrella.h"; sourceTree = "<group>"; };
 		EE59981048E5A6FCF72AD413D03FDFB8 /* react-native-atlas-location.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "react-native-atlas-location.xcconfig"; sourceTree = "<group>"; };
+		FCC28DD624FEE80E04120EE93B6196EA /* Pods-RNAtlasLocation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RNAtlasLocation_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,14 +56,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A62065F1515B58FF72184D48EF61771 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5EB3FC7AD342DDA6EB7B2ABEFC4BACE9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2D15DAE03BE69030F19235C08931369 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,16 +70,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16FAA37CED94773E13996EC1A36546FD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				75A04209CFC953C589E2F214D7963901 /* Pods_RNAtlasLocation_Example.framework */,
-				91990FDD9762C5770E80B74DCDD0E28A /* Pods_RNAtlasLocation_Tests.framework */,
-				60EA97AE6EDED93DD203CFE8343EBC63 /* react_native_atlas_location.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		1B26BA6E46D6C6D2A05CC7F1051A811F /* ios */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,24 +77,6 @@
 			);
 			name = ios;
 			path = ios;
-			sourceTree = "<group>";
-		};
-		33D83FC60DB6B79756D2E64FA4A3BAD5 /* Pods-RNAtlasLocation_Example */ = {
-			isa = PBXGroup;
-			children = (
-				D60A89DE2410C7A6CD59A4B8F1673DDF /* Info.plist */,
-				AA825896A46BA6F1336EB4614B5F66C4 /* Pods-RNAtlasLocation_Example.modulemap */,
-				CE42A2EBB489C942738CF0BC43B3B0BB /* Pods-RNAtlasLocation_Example-acknowledgements.markdown */,
-				84F447ABA3F31B933AC39AED9E0A424E /* Pods-RNAtlasLocation_Example-acknowledgements.plist */,
-				9880FED4AF79B95420A8BBAD2D8473F9 /* Pods-RNAtlasLocation_Example-dummy.m */,
-				03B96746A2E29F59C192B87E25668211 /* Pods-RNAtlasLocation_Example-frameworks.sh */,
-				D52669DC3F7736B7C349C295918BC801 /* Pods-RNAtlasLocation_Example-resources.sh */,
-				D0D99D417D16AAF56A020921A4182E48 /* Pods-RNAtlasLocation_Example-umbrella.h */,
-				4DC70F396675D4F9EC495D74915F4305 /* Pods-RNAtlasLocation_Example.debug.xcconfig */,
-				527F17EA62ABAB8BF0F38C580A433BB3 /* Pods-RNAtlasLocation_Example.release.xcconfig */,
-			);
-			name = "Pods-RNAtlasLocation_Example";
-			path = "Target Support Files/Pods-RNAtlasLocation_Example";
 			sourceTree = "<group>";
 		};
 		5D597E1E4CE9E65ED2073D8C47ACE3FE /* Classes */ = {
@@ -158,27 +108,27 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				AA7F844018BE4D7B4D187E18E4BC78DC /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				16FAA37CED94773E13996EC1A36546FD /* Products */,
-				FE9593795618816380BF235709FFB9B4 /* Targets Support Files */,
+				F8D57B11DD757CBBF943BE6C8B5B483D /* Products */,
+				C370FF57E48D20CAE83FB9B96C76E312 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7F165A1E49D226EBC0017FC7DF6E1CE9 /* Pods-RNAtlasLocation_Tests */ = {
+		9193C4D6F68E4BF4055E9FA97FFC63C7 /* Pods-RNAtlasLocation_Example */ = {
 			isa = PBXGroup;
 			children = (
-				EC6A993C43FBF4DA54F0608A97A13152 /* Info.plist */,
-				766AE213322EBE22E3E4E08AA3A779E6 /* Pods-RNAtlasLocation_Tests.modulemap */,
-				5DE937ADA368CE4A408CF7C4E6D98448 /* Pods-RNAtlasLocation_Tests-acknowledgements.markdown */,
-				5713C2743DA538BDA56C004EFDE3A3F9 /* Pods-RNAtlasLocation_Tests-acknowledgements.plist */,
-				5E412FFCB9B8C754E4132DD0C74FD03E /* Pods-RNAtlasLocation_Tests-dummy.m */,
-				2F92FE43F4EB84914744F8A9B1C2622A /* Pods-RNAtlasLocation_Tests-frameworks.sh */,
-				E05E2FC00EE95526E91663FA32378910 /* Pods-RNAtlasLocation_Tests-resources.sh */,
-				2E9AAAD494EF2997750D70DED46B0BE6 /* Pods-RNAtlasLocation_Tests-umbrella.h */,
-				175DD0C380F6CFBEE35D6544A1E8474D /* Pods-RNAtlasLocation_Tests.debug.xcconfig */,
-				1FA48C22DF3734D9E50578AD59F45EF4 /* Pods-RNAtlasLocation_Tests.release.xcconfig */,
+				B5CFC02DF3F9BDC05B9F19B37446934F /* Info.plist */,
+				DCDBA5C56EF5C53261E4383E73F88351 /* Pods-RNAtlasLocation_Example.modulemap */,
+				1B569DE596A5548989F71E69702D0863 /* Pods-RNAtlasLocation_Example-acknowledgements.markdown */,
+				61CF1B4A2D1EDF3AFADF1C5B38335C62 /* Pods-RNAtlasLocation_Example-acknowledgements.plist */,
+				00776EDEB1FF42874D33A6F805F52FBE /* Pods-RNAtlasLocation_Example-dummy.m */,
+				32DC3BE6C963FC8406042930BCF0E692 /* Pods-RNAtlasLocation_Example-frameworks.sh */,
+				FCC28DD624FEE80E04120EE93B6196EA /* Pods-RNAtlasLocation_Example-resources.sh */,
+				EC24782D39E793A18AD15E9AA06935EF /* Pods-RNAtlasLocation_Example-umbrella.h */,
+				58D98929D1BDFF7B567403F8F60053C5 /* Pods-RNAtlasLocation_Example.debug.xcconfig */,
+				114DB0770960778EE9731D8454BFC09D /* Pods-RNAtlasLocation_Example.release.xcconfig */,
 			);
-			name = "Pods-RNAtlasLocation_Tests";
-			path = "Target Support Files/Pods-RNAtlasLocation_Tests";
+			name = "Pods-RNAtlasLocation_Example";
+			path = "Target Support Files/Pods-RNAtlasLocation_Example";
 			sourceTree = "<group>";
 		};
 		AA7F844018BE4D7B4D187E18E4BC78DC /* Development Pods */ = {
@@ -195,6 +145,14 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C370FF57E48D20CAE83FB9B96C76E312 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9193C4D6F68E4BF4055E9FA97FFC63C7 /* Pods-RNAtlasLocation_Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -215,6 +173,15 @@
 			path = ../../../..;
 			sourceTree = "<group>";
 		};
+		F8D57B11DD757CBBF943BE6C8B5B483D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66B7D2A2227631FF89B3FF70D1BF7546 /* Pods_RNAtlasLocation_Example.framework */,
+				B3E8421D5AA09FD699A40AFD15E314B5 /* react_native_atlas_location.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		F9282C860C75CEA2F6F1BD754B41955B /* RNAtlasLocation */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,26 +191,9 @@
 			path = RNAtlasLocation;
 			sourceTree = "<group>";
 		};
-		FE9593795618816380BF235709FFB9B4 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				33D83FC60DB6B79756D2E64FA4A3BAD5 /* Pods-RNAtlasLocation_Example */,
-				7F165A1E49D226EBC0017FC7DF6E1CE9 /* Pods-RNAtlasLocation_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1CA40AB9223EFC93EE8296BACCCD1165 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A96326CECB7492E66D361BC7E35314D /* Pods-RNAtlasLocation_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		476BA3E9BDCC2E5931D9B12290148037 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,24 +228,7 @@
 			);
 			name = "Pods-RNAtlasLocation_Example";
 			productName = "Pods-RNAtlasLocation_Example";
-			productReference = 75A04209CFC953C589E2F214D7963901 /* Pods_RNAtlasLocation_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9473397B01CF95DCBCA961D8AB86BE6F /* Pods-RNAtlasLocation_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7482C2667CA06B1A4967778EF2395C02 /* Build configuration list for PBXNativeTarget "Pods-RNAtlasLocation_Tests" */;
-			buildPhases = (
-				E2D01645AEF9384AD21D7C29BDE0DE75 /* Sources */,
-				5EB3FC7AD342DDA6EB7B2ABEFC4BACE9 /* Frameworks */,
-				1CA40AB9223EFC93EE8296BACCCD1165 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-RNAtlasLocation_Tests";
-			productName = "Pods-RNAtlasLocation_Tests";
-			productReference = 91990FDD9762C5770E80B74DCDD0E28A /* Pods_RNAtlasLocation_Tests.framework */;
+			productReference = 66B7D2A2227631FF89B3FF70D1BF7546 /* Pods_RNAtlasLocation_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D6E62090F59E8E275C8E58590A891D0B /* react-native-atlas-location */ = {
@@ -312,7 +245,7 @@
 			);
 			name = "react-native-atlas-location";
 			productName = "react-native-atlas-location";
-			productReference = 60EA97AE6EDED93DD203CFE8343EBC63 /* react_native_atlas_location.framework */;
+			productReference = B3E8421D5AA09FD699A40AFD15E314B5 /* react_native_atlas_location.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -332,12 +265,11 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 16FAA37CED94773E13996EC1A36546FD /* Products */;
+			productRefGroup = F8D57B11DD757CBBF943BE6C8B5B483D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				333BE93EF1F44245A135E2BD7C3EE519 /* Pods-RNAtlasLocation_Example */,
-				9473397B01CF95DCBCA961D8AB86BE6F /* Pods-RNAtlasLocation_Tests */,
 				D6E62090F59E8E275C8E58590A891D0B /* react-native-atlas-location */,
 			);
 		};
@@ -358,14 +290,6 @@
 			files = (
 				AE5E8381845D834CAEBA11079DAB8E1C /* Location.swift in Sources */,
 				8876EB90B2EE83F27610FF411E3D50F5 /* react-native-atlas-location-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2D01645AEF9384AD21D7C29BDE0DE75 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C30DF3B8877D993CD2C0324D19C84E1 /* Pods-RNAtlasLocation_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,41 +450,9 @@
 			};
 			name = Debug;
 		};
-		A62C1D875CF4621B9E46B426610C0439 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 175DD0C380F6CFBEE35D6544A1E8474D /* Pods-RNAtlasLocation_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RNAtlasLocation_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RNAtlasLocation_Tests/Pods-RNAtlasLocation_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RNAtlasLocation_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		A6AF7514C3B050E1CF651BA51CE781DB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DC70F396675D4F9EC495D74915F4305 /* Pods-RNAtlasLocation_Example.debug.xcconfig */;
+			baseConfigurationReference = 58D98929D1BDFF7B567403F8F60053C5 /* Pods-RNAtlasLocation_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -625,7 +517,7 @@
 		};
 		C92861160D35493FD1155C0C258DD199 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 527F17EA62ABAB8BF0F38C580A433BB3 /* Pods-RNAtlasLocation_Example.release.xcconfig */;
+			baseConfigurationReference = 114DB0770960778EE9731D8454BFC09D /* Pods-RNAtlasLocation_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -650,39 +542,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E17848285669C1E721C0AC7CDED2E88C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FA48C22DF3734D9E50578AD59F45EF4 /* Pods-RNAtlasLocation_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RNAtlasLocation_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RNAtlasLocation_Tests/Pods-RNAtlasLocation_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RNAtlasLocation_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -716,15 +575,6 @@
 			buildConfigurations = (
 				97F90329207E22A9B581B0EDEEB47508 /* Debug */,
 				A728AD42C076A1E1AB6B01311320F2AC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7482C2667CA06B1A4967778EF2395C02 /* Build configuration list for PBXNativeTarget "Pods-RNAtlasLocation_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A62C1D875CF4621B9E46B426610C0439 /* Debug */,
-				E17848285669C1E721C0AC7CDED2E88C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

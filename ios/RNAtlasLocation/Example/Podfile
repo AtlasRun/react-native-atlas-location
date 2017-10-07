@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'RNAtlasLocation_Example' do
   pod 'react-native-atlas-location', :path => '../../../'
-
-  target 'RNAtlasLocation_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
