@@ -1,0 +1,15 @@
+{
+  "name": "react-native-atlas-location",
+  "version": "0.0.1",
+  "description": "React Native Atlas Location Component",
+  "main": "index",
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "keywords": [
+    "location"
+  ],
+  "author": "sotownsend",
+  "license": "MIT"
+}
