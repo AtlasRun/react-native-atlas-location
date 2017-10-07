@@ -1,4 +1,4 @@
-#import "main.h"
+#import "LocationManager.h"
 #import <React/RCTLog.h>
 
 @implementation LocationManager

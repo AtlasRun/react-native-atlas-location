@@ -47,13 +47,11 @@
 		2399DCAEB2EF878762609ADBCA984804 /* RCTViewControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 77AAD9FF4699913CDEF74042E5145420 /* RCTViewControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2530A30CAF4D23C60201A33AF81497BA /* RCTAppState.m in Sources */ = {isa = PBXBuildFile; fileRef = 93844823F0FDB90A200D1C6B4A42E63E /* RCTAppState.m */; };
 		25D540961F2C03F51622E3612D19DEF9 /* RCTI18nManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1CFA1EA73BB633C31B01F3B94EA2D4 /* RCTI18nManager.m */; };
-		2666C905F95C0B4BA98C1E23151A94FC /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = 37C488B1F1AC997A66A4C3160690FAA3 /* main.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27E8E3EAC7A18D90B73CCD07E2739A49 /* RCTBorderDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D896D1A5AEC80D74F531C43DDD427 /* RCTBorderDrawing.m */; };
 		27F5B322E2F31AE27735C7E956086135 /* RCTTouchEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA711AC811C4BFC585BA45BA45E8420 /* RCTTouchEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29CE30A372B0B72BAAB641A3940C4721 /* RCTDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2624CCC30A4CEEF3988D82D44C2A0BA7 /* RCTDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B579F820F39EF93A69797FD13CEAB52 /* RCTNavigatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 002F9474494F63CF668A4FAFED4F5292 /* RCTNavigatorManager.m */; };
 		2BF700DD616BA41DAE898BB6071F9BDA /* RCTBatchedBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03CF195B5C6D51311675FC8D53F3DCA9 /* RCTBatchedBridge.mm */; };
-		2C1B560A9B421DBBA1C3E92DD9FCB702 /* react-native-atlas-location-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 440D797B0FF9161B6FA7C167C848FCD4 /* react-native-atlas-location-dummy.m */; };
 		2CC2D752D2815A7425D24EF23E86313D /* RCTTouchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEFD41C6637DB54E9DC1072F6DE973 /* RCTTouchHandler.m */; };
 		2E401AF5A394530A1B7DDD310AF7D3C9 /* RCTNullability.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C098A5FAA775719FD98ACF302C724DE /* RCTNullability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E591DE11B538E264260CA081B9DFFA5 /* RCTMultipartDataTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B69D4BB551E6AC6B84555A122E12FAE /* RCTMultipartDataTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -108,6 +106,7 @@
 		528242A8B0B40B67CCA09D6183FD5414 /* RCTModuleData.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEF3F1FAD8C7C4BD03F7C5E20513F5B3 /* RCTModuleData.mm */; };
 		54C21064692CCDBF24A8DBA8356959A8 /* RCTTouchHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 425152F37ED088226CBDFD6C7A7408CC /* RCTTouchHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55173CA5F3BF0574786F430B1C2DB657 /* RCTAsyncLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 301E60B6AB8AA569718B0098B07B8558 /* RCTAsyncLocalStorage.m */; };
+		561C24E5A268CE56B3A59FF102376874 /* react-native-atlas-location-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 440D797B0FF9161B6FA7C167C848FCD4 /* react-native-atlas-location-dummy.m */; };
 		569DA80C844736C0E61C919C3F26D65C /* RCTReloadCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0272EA536AB82BF582C194E4D0CBC3 /* RCTReloadCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5830BC8C00633DEFB62682067618EC6F /* RCTActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A1A757494880633C1551FD939CAE20 /* RCTActivityIndicatorView.m */; };
 		58C532D846195E1616AAC5E825D6F31B /* RCTI18nManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ADCFA98D1BD885DD4D8E0B3AF65FC49 /* RCTI18nManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -265,6 +264,7 @@
 		D4AAB857348A86C1DAC912FFF30FFC3B /* RCTBundleURLProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = FA0073E08DFF9B0399D0F63EB67FE611 /* RCTBundleURLProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D54F43CE52ED0498DEE3FF7A467FE7C5 /* RCTAnimationType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB4A5C34B4F54617D01BB0AD8D02F90 /* RCTAnimationType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D558DDF1FCAA55C4DDB966EEBAE8A506 /* RCTTabBarItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E6C6E688ACFEEC3B33590B6E8F8D67 /* RCTTabBarItemManager.m */; };
+		D5D92407158EEBAD981CCA231595E06C /* LocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 880C8ECBA8704680B85EF6F03465D19F /* LocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D70D32C8198714182BBC932054E08CAE /* RCTReloadPackagerMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D6E7600724C5EE5ED3C134CD8AD6CF /* RCTReloadPackagerMethod.m */; };
 		D75963E83B34EF7E8F8507FC2392F8F3 /* RCTComponentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E8D4979E350904789970AA26CFBB41 /* RCTComponentData.m */; };
 		D86B86082A4535B7A8B75C904CFFC7DE /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */; };
@@ -274,10 +274,10 @@
 		DCAEF39B81C6420C78A52EC4F3105F8D /* RCTModalHostViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03826D97C2B187329FD00F19EFBFD4AC /* RCTModalHostViewManager.m */; };
 		DCB76A2B93A493ECC17E5D80E3A2BEEF /* RCTAssert.m in Sources */ = {isa = PBXBuildFile; fileRef = 750064DC1057D5AC7ACC8248BA99C17D /* RCTAssert.m */; };
 		DD9C32116C7275659079A02BA41AC3B5 /* RCTRootContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = FDD7259DA01A3A7324E4E6E0A8E1572D /* RCTRootContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2BBE68EEB65CF2F920788FF143B6BC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F40A0281DB15085E80D8ECF5DB5978FB /* main.m */; };
 		E38776236C5F13E47BCC937D22B8D319 /* RCTMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F8FD2CA5D6B0D7E687EA550EF705003B /* RCTMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E508E39025B50B8F9935D62762F6C0CA /* RCTRootView.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA0406F89CB59D0D9F6FFD49669277E /* RCTRootView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E57734E0A1837A3B9DF19CFC9C4ED3AC /* RCTShadowView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9119957BB5C8317E9E1CFDEF422823 /* RCTShadowView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6B2B2BE5659E6A9EDE9B2CD1BA953AF /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CEEC2BB8D2E89096CB45BEF236B1A8 /* LocationManager.m */; };
 		E7A1C0ADF213A9CF8150FC5C9C6B2824 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53A15A241FD8AAFB51191B67D365185 /* Foundation.framework */; };
 		E8472F8F49B8BDD3D1B11634C2FB90ED /* RCTBundleURLProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CB6376D0A7DDC7D23BAE553D22616A /* RCTBundleURLProvider.m */; };
 		EC022EE03A4031D709DACCCDB7A5A6D8 /* RCTRootShadowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F30B37E02A4C92F197440478AF4F334 /* RCTRootShadowView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -407,7 +407,6 @@
 		34D0D64691C54F97A9508B62E3407AE0 /* JSBundleType.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = JSBundleType.cpp; sourceTree = "<group>"; };
 		34E6C6E688ACFEEC3B33590B6E8F8D67 /* RCTTabBarItemManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTTabBarItemManager.m; sourceTree = "<group>"; };
 		370E0FE83829E7B03C14712BF18F7153 /* React.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = React.xcconfig; sourceTree = "<group>"; };
-		37C488B1F1AC997A66A4C3160690FAA3 /* main.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		387E02CE10F953B7FEA851FC0D72166E /* RCTPackagerConnectionBridgeConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTPackagerConnectionBridgeConfig.m; sourceTree = "<group>"; };
 		39C473D9F91D8CB08C47934D0831A371 /* RCTUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTUtils.m; sourceTree = "<group>"; };
 		3BD9135D967E330704A278D73A9EABF1 /* RCTNavItemManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTNavItemManager.m; sourceTree = "<group>"; };
@@ -476,6 +475,7 @@
 		73B3CABE53331E68462E311015512F44 /* RCTInspectorDevServerHelper.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RCTInspectorDevServerHelper.mm; sourceTree = "<group>"; };
 		74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		750064DC1057D5AC7ACC8248BA99C17D /* RCTAssert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTAssert.m; sourceTree = "<group>"; };
+		76CEEC2BB8D2E89096CB45BEF236B1A8 /* LocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
 		77AAD9FF4699913CDEF74042E5145420 /* RCTViewControllerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTViewControllerProtocol.h; sourceTree = "<group>"; };
 		7800323B5843F0999DEAA6B6F1477164 /* RCTProfileTrampoline-arm.S */ = {isa = PBXFileReference; includeInIndex = 1; path = "RCTProfileTrampoline-arm.S"; sourceTree = "<group>"; };
 		7A17B2D7486AA2A9CFA43FE47668BC7C /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -492,6 +492,7 @@
 		85639EC92607F526BDF23DA7E7C2F458 /* RCTDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTDatePicker.m; sourceTree = "<group>"; };
 		86BC3485F52EEBF84283FD666EC6AB5A /* RCTModuleMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTModuleMethod.h; sourceTree = "<group>"; };
 		87E8D4979E350904789970AA26CFBB41 /* RCTComponentData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTComponentData.m; sourceTree = "<group>"; };
+		880C8ECBA8704680B85EF6F03465D19F /* LocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
 		89942AD73A587C14AE324BC32D50BFB3 /* RCTConvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTConvert.h; sourceTree = "<group>"; };
 		8A667FCC9C2D89C9F2F5D73DE33B766C /* RCTPackagerConnectionBridgeConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTPackagerConnectionBridgeConfig.h; sourceTree = "<group>"; };
 		8AB29F22CE33AECDD8483ABCC5DF2A93 /* RCTEventEmitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTEventEmitter.m; sourceTree = "<group>"; };
@@ -628,7 +629,6 @@
 		F0FF0D0A4104841CD25D97F51DA87A3C /* RCTLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTLog.h; sourceTree = "<group>"; };
 		F30AC5EACFB1B23E412A7D94D09C09CF /* Yoga-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Yoga-dummy.m"; sourceTree = "<group>"; };
 		F3B29D5ADB878A2F2330F5B3CA9DE769 /* RCTAutoInsetsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTAutoInsetsProtocol.h; sourceTree = "<group>"; };
-		F40A0281DB15085E80D8ECF5DB5978FB /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F65429EF0AB632EB0C48CF3BFB2144DD /* YGNodeList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YGNodeList.h; sourceTree = "<group>"; };
 		F6FD72F0074FE5060571607D4B170CE4 /* RCTNavigatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RCTNavigatorManager.h; sourceTree = "<group>"; };
 		F850F0D5AF5AD6088234A655F4779EDB /* RCTReconnectingWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RCTReconnectingWebSocket.m; sourceTree = "<group>"; };
@@ -912,16 +912,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		21B328D97D8DAB12C6542E654FA61FA1 /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				37C488B1F1AC997A66A4C3160690FAA3 /* main.h */,
-				F40A0281DB15085E80D8ECF5DB5978FB /* main.m */,
-			);
-			name = ios;
-			path = ios;
-			sourceTree = "<group>";
-		};
 		23050C81B7458397A2C32226B66F4995 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -1030,6 +1020,16 @@
 			path = Libraries;
 			sourceTree = "<group>";
 		};
+		61174D2B0B6726DCAF0A9140478B16FD /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				880C8ECBA8704680B85EF6F03465D19F /* LocationManager.h */,
+				76CEEC2BB8D2E89096CB45BEF236B1A8 /* LocationManager.m */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
 		6499609D65F271546CA6CB711A8011E5 /* WebSocket */ = {
 			isa = PBXGroup;
 			children = (
@@ -1052,7 +1052,7 @@
 		68A8278F474D66287AB5B6D83BF9E212 /* react-native-atlas-location */ = {
 			isa = PBXGroup;
 			children = (
-				21B328D97D8DAB12C6542E654FA61FA1 /* ios */,
+				61174D2B0B6726DCAF0A9140478B16FD /* ios */,
 				858D6642F96F61BF08C71102CBEF360B /* Support Files */,
 			);
 			name = "react-native-atlas-location";
@@ -1392,14 +1392,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0204872D11DD4C0B70EC47A9BF59EF4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2666C905F95C0B4BA98C1E23151A94FC /* main.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BDAD9E76C2B34178DF2492C807589037 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1555,6 +1547,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC5A507CDBD0F5A413D6791D35032F8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D92407158EEBAD981CCA231595E06C /* LocationManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -1599,9 +1599,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6813570B8B7F14DF51E0D63569EB5A9 /* Build configuration list for PBXNativeTarget "react-native-atlas-location" */;
 			buildPhases = (
-				FB24D491A32270B33B8C2F3640E6AC74 /* Sources */,
+				019817B7ADA53C4BF8E662AD8803C120 /* Sources */,
 				98648552CC87C6CC2AACB94DA0FF5B18 /* Frameworks */,
-				A0204872D11DD4C0B70EC47A9BF59EF4 /* Headers */,
+				DC5A507CDBD0F5A413D6791D35032F8E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1660,6 +1660,15 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		019817B7ADA53C4BF8E662AD8803C120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B2B2BE5659E6A9EDE9B2CD1BA953AF /* LocationManager.m in Sources */,
+				561C24E5A268CE56B3A59FF102376874 /* react-native-atlas-location-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		346BE8A7A712925BBC2318ACBFA20129 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1811,15 +1820,6 @@
 				785754D46B3F96BE74C588D21852871C /* YGNodeList.c in Sources */,
 				C818B965088275BD2DBA0A16B500A71D /* Yoga-dummy.m in Sources */,
 				8E3B59270A26CFA435BC27FC3A926913 /* Yoga.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB24D491A32270B33B8C2F3640E6AC74 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2BBE68EEB65CF2F920788FF143B6BC9 /* main.m in Sources */,
-				2C1B560A9B421DBBA1C3E92DD9FCB702 /* react-native-atlas-location-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
