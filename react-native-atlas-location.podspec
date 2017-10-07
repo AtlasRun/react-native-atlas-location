@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'RNAtlasLocation'
+  s.name             = 'react-native-atlas-location'
   s.version          = '0.1.0'
   s.summary          = 'A short description of RNAtlasLocation.'
 
