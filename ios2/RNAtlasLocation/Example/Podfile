@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RNAtlasLocation_Example' do
+  pod 'RNAtlasLocation', :path => '../'
+
+  target 'RNAtlasLocation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
