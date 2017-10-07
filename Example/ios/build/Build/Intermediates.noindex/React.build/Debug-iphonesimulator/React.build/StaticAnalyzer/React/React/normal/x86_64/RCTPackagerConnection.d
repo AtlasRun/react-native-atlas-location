@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/DevSupport/RCTPackagerConnection.m \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/../Libraries/WebSocket/RCTReconnectingWebSocket.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/../Libraries/WebSocket/RCTSRWebSocket.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/../Libraries/WebSocket/RCTWebSocketObserver.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/DevSupport/RCTPackagerConnectionBridgeConfig.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/DevSupport/RCTPackagerConnectionConfig.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/DevSupport/RCTReloadPackagerMethod.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/Seo/Development/Atlas/react-native-atlas-location/Example/node_modules/react-native/React/DevSupport/RCTSamplingProfilerPackagerMethod.h
