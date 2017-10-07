@@ -1,0 +1,38 @@
+PODS:
+  - React/BatchedBridge (0.48.4):
+    - React/Core
+    - React/cxxreact_legacy
+  - React/Core (0.48.4):
+    - Yoga (= 0.48.4.React)
+  - React/cxxreact_legacy (0.48.4):
+    - React/jschelpers_legacy
+  - React/DevSupport (0.48.4):
+    - React/Core
+    - React/RCTWebSocket
+  - React/jschelpers_legacy (0.48.4)
+  - React/RCTBlob (0.48.4):
+    - React/Core
+  - React/RCTWebSocket (0.48.4):
+    - React/Core
+    - React/RCTBlob
+  - Yoga (0.48.4.React)
+
+DEPENDENCIES:
+  - React/BatchedBridge (from `../node_modules/react-native`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+  Yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  React: 6d68659481a8a56e0f6b3dbecd984d5b9bb2d6c5
+  Yoga: ccefa1454b2e9825dce3b2df98088b7f0e3c2675
+
+PODFILE CHECKSUM: 913aa48332824bf741f9deca859ad738fadcc829
+
+COCOAPODS: 1.2.0
