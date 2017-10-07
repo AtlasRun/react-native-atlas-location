@@ -1,18 +1,17 @@
 #import "main.h"
 #import <React/RCTLog.h>
 
-@implementation CalendarManager
+@implementation LocationManager
 
-RCT_EXPORT_MODULE(CalendarManager);
+RCT_EXPORT_MODULE();
 
-RCT_EXPORT_METHOD(addEvent:(NSString *)name location:(NSString *)location)
+RCT_REMAP_METHOD(getRoughLocation,
+                 resolver:(RCTPromiseResolveBlock)resolve
+                 rejecter:(RCTPromiseRejectBlock)reject)
 {
-//    [RCTLogInfo(@"Pretending to create an event %@ at %@", name, location);
-    
-     dispatch_async(dispatch_get_main_queue(), ^{
-        UIAlertView *av = [[UIAlertView alloc] init];
-        av.message = location;
-        [av show];
-    });
+    // Belgium
+    NSDictionary *loc = @{@"latitude": @50.5039, @"longitude": @4.4699};
+    resolve(loc);
 }
+
 @end

@@ -1,3 +1,3 @@
 #import <React/RCTBridgeModule.h>
-@interface CalendarManager : NSObject <RCTBridgeModule>
+@interface LocationManager : NSObject <RCTBridgeModule>
 @end

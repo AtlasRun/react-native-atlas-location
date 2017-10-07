@@ -1,4 +1,4 @@
-import { NativeModules, StyleSheet, Text, View } from 'react-native';
+import { Alert, NativeModules, StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 
 export default class App extends React.Component {
@@ -6,8 +6,13 @@ export default class App extends React.Component {
     super();
 
     //Alert.alert(JSON.stringify(NativeModules));
-    var cm = NativeModules.CalendarManager;
-    cm.addEvent("Hello", "4");
+    this.lol();
+  }
+
+  async lol() {
+    var cm = NativeModules.LocationManager;
+    const events = await cm.getRoughLocation();
+    Alert.alert(events.latitude.toString());
   }
   render() {
     return (
