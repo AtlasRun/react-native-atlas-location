@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ios/RNAtlasLocation/Classes/**/*'
+  s.source_files = 'ios/*.{h,m}'
   
   # s.resource_bundles = {
   #   'RNAtlasLocation' => ['RNAtlasLocation/Assets/*.png']
@@ -34,5 +34,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  #s.dependency 'React'
 end

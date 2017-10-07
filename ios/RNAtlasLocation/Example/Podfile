@@ -1,5 +1,0 @@
-use_frameworks!
-
-target 'RNAtlasLocation_Example' do
-  pod 'react-native-atlas-location', :path => '../../../'
-end

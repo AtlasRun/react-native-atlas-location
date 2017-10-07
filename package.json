@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "description": "React Native Atlas Location Component",
   "main": "index",
-  "scripts": {
-  },
-  "dependencies": {
-  },
+  "scripts": {},
+  "dependencies": {},
   "keywords": [
     "location"
   ],
