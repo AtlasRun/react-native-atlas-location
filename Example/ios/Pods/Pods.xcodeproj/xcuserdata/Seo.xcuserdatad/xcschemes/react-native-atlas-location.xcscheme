@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "23CA0A8DC5E43F345C5C3B2C9D4DB374"
-               BuildableName = "yoga.framework"
-               BlueprintName = "Yoga"
+               BlueprintIdentifier = "D2D5F1450675FB961F3BADCABA23A9D9"
+               BuildableName = "react_native_atlas_location.framework"
+               BlueprintName = "react-native-atlas-location"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "23CA0A8DC5E43F345C5C3B2C9D4DB374"
-            BuildableName = "yoga.framework"
-            BlueprintName = "Yoga"
+            BlueprintIdentifier = "D2D5F1450675FB961F3BADCABA23A9D9"
+            BuildableName = "react_native_atlas_location.framework"
+            BlueprintName = "react-native-atlas-location"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

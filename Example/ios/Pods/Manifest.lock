@@ -1,4 +1,8 @@
 PODS:
+  - React (0.48.4):
+    - React/Core (= 0.48.4)
+  - react-native-atlas-location (0.1.1):
+    - React
   - React/BatchedBridge (0.48.4):
     - React/Core
     - React/cxxreact_legacy
@@ -18,6 +22,7 @@ PODS:
   - Yoga (0.48.4.React)
 
 DEPENDENCIES:
+  - react-native-atlas-location (from `../../`)
   - React/BatchedBridge (from `../node_modules/react-native`)
   - React/Core (from `../node_modules/react-native`)
   - React/DevSupport (from `../node_modules/react-native`)
@@ -26,13 +31,16 @@ DEPENDENCIES:
 EXTERNAL SOURCES:
   React:
     :path: "../node_modules/react-native"
+  react-native-atlas-location:
+    :path: "../../"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
   React: 6d68659481a8a56e0f6b3dbecd984d5b9bb2d6c5
+  react-native-atlas-location: 8339fd103c6f42f05d40fdf7cf8bdb05d87c2840
   Yoga: ccefa1454b2e9825dce3b2df98088b7f0e3c2675
 
-PODFILE CHECKSUM: 913aa48332824bf741f9deca859ad738fadcc829
+PODFILE CHECKSUM: c7d0d527da96061f845b3b5e06292c0422551215
 
 COCOAPODS: 1.2.0

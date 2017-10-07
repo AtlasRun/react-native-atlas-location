@@ -13,4 +13,6 @@ target 'Example' do
     'DevSupport',
     'BatchedBridge',
   ]
+
+  pod 'react-native-atlas-location', :path => '../../'
 end
