@@ -27,6 +27,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ios/*.{h,m}'
+  s.header_mappings_dir = 'ios'
+  s.public_header_files = 'ios/*.h'
   
   # s.resource_bundles = {
   #   'RNAtlasLocation' => ['RNAtlasLocation/Assets/*.png']

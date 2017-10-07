@@ -18,6 +18,8 @@
     "ios": "8.0"
   },
   "source_files": "ios/*.{h,m}",
+  "header_mappings_dir": "ios",
+  "public_header_files": "ios/*.h",
   "dependencies": {
     "React": [
 

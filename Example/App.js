@@ -1,7 +1,14 @@
+import { NativeModules, StyleSheet, Text, View } from 'react-native';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
 
 export default class App extends React.Component {
+  constructor() {
+    super();
+
+    //Alert.alert(JSON.stringify(NativeModules));
+    var cm = NativeModules.CalendarManager;
+    cm.addEvent("Hello", "4");
+  }
   render() {
     return (
       <View style={styles.container}>

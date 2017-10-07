@@ -16,6 +16,8 @@ PODS:
   - React/jschelpers_legacy (0.48.4)
   - React/RCTBlob (0.48.4):
     - React/Core
+  - React/RCTLinkingIOS (0.48.4):
+    - React/Core
   - React/RCTWebSocket (0.48.4):
     - React/Core
     - React/RCTBlob
@@ -26,6 +28,7 @@ DEPENDENCIES:
   - React/BatchedBridge (from `../node_modules/react-native`)
   - React/Core (from `../node_modules/react-native`)
   - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 EXTERNAL SOURCES:
@@ -38,9 +41,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   React: 6d68659481a8a56e0f6b3dbecd984d5b9bb2d6c5
-  react-native-atlas-location: 8339fd103c6f42f05d40fdf7cf8bdb05d87c2840
+  react-native-atlas-location: 002499408ffb219a0cdf5140068e203cd08eff94
   Yoga: ccefa1454b2e9825dce3b2df98088b7f0e3c2675
 
-PODFILE CHECKSUM: c7d0d527da96061f845b3b5e06292c0422551215
+PODFILE CHECKSUM: 8da823e810a70613dd28274c9f04752859b25f07
 
 COCOAPODS: 1.2.0
