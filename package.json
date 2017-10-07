@@ -10,6 +10,10 @@
   "keywords": [
     "location"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atlasrun/react-native-atlas-location"
+  }
   "author": "sotownsend",
   "license": "MIT"
 }
