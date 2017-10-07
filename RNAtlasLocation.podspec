@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'RNAtlasLocation'
   s.version          = '0.1.0'
   s.summary          = 'A React Native cross-platform location library built with fitness apps in mind'
+  s.homepage         = 'https://github.com/atlasrun/react-native-atlas-location'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
