@@ -2,6 +2,7 @@
   "name": "react-native-atlas-location",
   "version": "0.0.1",
   "description": "React Native Atlas Location Component",
+  "homepage": "https://github.com/atlasrun/react-native-atlas-location",
   "main": "index",
   "scripts": {
   },
