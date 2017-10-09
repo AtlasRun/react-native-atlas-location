@@ -1,6 +1,7 @@
 import { Alert, StyleSheet, Text, View } from 'react-native';
-import { getRoughLocation } from 'react-native-atlas-location';
 import React from 'react';
+
+import { getRoughLocation } from 'react-native-atlas-location';
 
 export default class App extends React.Component {
   constructor() {

@@ -1,8 +1,8 @@
+import { NativeModules } from 'react-native';
+
+const man = NativeModules.LocationManager;
+
+// Returns {latitude, longitude}
 export function getRoughLocation() {
-  return new Promise((res, rej) => {
-    res({
-      latitude: 0,
-      longitude: 1,
-    });
-  });
+  return man.getRoughLocation();
 }
