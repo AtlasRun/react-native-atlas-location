@@ -1,4 +1,5 @@
-import { Alert, NativeModules, StyleSheet, Text, View } from 'react-native';
+import { Alert, StyleSheet, Text, View } from 'react-native';
+import { getRoughLocation } from 'react-native-atlas-location';
 import React from 'react';
 
 export default class App extends React.Component {
@@ -10,9 +11,11 @@ export default class App extends React.Component {
   }
 
   async lol() {
-    var cm = NativeModules.LocationManager;
-    const events = await cm.getRoughLocation();
-    Alert.alert(events.latitude.toString());
+    //var cm = NativeModules.LocationManager;
+    //const events = await cm.getRoughLocation();
+    getRoughLocation().then((e) => {
+      Alert.alert(e.latitude.toString())
+    })
   }
   render() {
     return (
