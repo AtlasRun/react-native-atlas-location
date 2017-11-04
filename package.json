@@ -13,8 +13,5 @@
     "url": "https://github.com/atlasrun/react-native-atlas-location"
   },
   "author": "sotownsend",
-  "license": "MIT",
-  "peerDependencies": {
-    "react-native": "^0.49.2"
-  }
+  "license": "MIT"
 }

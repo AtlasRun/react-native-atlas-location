@@ -1,4 +1,4 @@
-#import "LocationManager.h"
+#import "AtlasLocationManager.h"
 #import <React/RCTLog.h>
 
 static NSString *const EVENT_TRACKING_POSITION_UPDATED    = @"trackingPositionUpdated";
@@ -9,8 +9,17 @@ static NSString *const EVENT_TRACKING_STOPPED    = @"trackingStopped";
 
 RCT_EXPORT_MODULE();
 
+// Events we support
+- (NSArray<NSString *> *)supportedEvents {
+    return @[
+      EVENT_TRACKING_STARTED,
+      EVENT_TRACKING_STOPPED,
+      EVENT_TRACKING_POSITION_UPDATED,
+    ];
+}
+
 RCT_REMAP_METHOD(getRoughLocation,
-                 resolver:(RCTPromiseResolveBlock)resolve
+                 getRoughLocationWithResolver:(RCTPromiseResolveBlock)resolve
                  rejecter:(RCTPromiseRejectBlock)reject)
 {
     // Belgium
@@ -19,21 +28,21 @@ RCT_REMAP_METHOD(getRoughLocation,
 }
 
 RCT_REMAP_METHOD(startTracking,
-                 resolver:(RCTPromiseResolveBlock)resolve
+                 startTrackingWithResolver:(RCTPromiseResolveBlock)resolve
                  rejecter:(RCTPromiseRejectBlock)reject)
 {
     // Belgium
-    [self sendEvent:EVENT_TRACKING_STARTED body:@{}];
-    resolve();
+    [self sendEventWithName:EVENT_TRACKING_STARTED body:@{}];
+    resolve(0);
 }
 
 // Clears all onPositionUpdate(s)
 RCT_REMAP_METHOD(stopTracking,
-                 resolver:(RCTPromiseResolveBlock)resolve
+                 stopTrackingWithResolver:(RCTPromiseResolveBlock)resolve
                  rejecter:(RCTPromiseRejectBlock)reject)
 {
-    [self sendEvent:EVENT_TRACKING_STOPPED body:@{}];
-    resolve();
+    [self sendEventWithName:EVENT_TRACKING_STOPPED body:@{}];
+    resolve(0);
 }
 
 //RCT_EXPORT_METHOD(onPositionUpdate:(RCTResponseSenderBlock)onUpdate)
