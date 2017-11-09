@@ -21,10 +21,6 @@ RCT_EXPORT_MODULE();
     if (self) {
         loc = [CLLocationManager new];
         [loc setDelegate:self];
-        loc.desiredAccuracy = kCLLocationAccuracyNearestTenMeters;
-        loc.activityType = CLActivityTypeFitness;
-        [loc setAllowsBackgroundLocationUpdates:YES];
-        [loc setDistanceFilter:kCLDistanceFilterNone];
     }
 
     return self;
@@ -45,8 +41,9 @@ RCT_EXPORT_MODULE();
 // Events we support
 - (NSArray<NSString *> *)supportedEvents {
     return @[
-      EVENT_TRACKING_STARTED,
-      EVENT_TRACKING_STOPPED, EVENT_TRACKING_POSITION_UPDATED, ]; }
+      EVENT_TRACKING_STARTED, EVENT_TRACKING_STOPPED, EVENT_TRACKING_POSITION_UPDATED,
+    ];
+}
 
 RCT_REMAP_METHOD(getRoughLocation,
                  getRoughLocationWithResolver:(RCTPromiseResolveBlock)resolve
@@ -64,6 +61,10 @@ RCT_REMAP_METHOD(startTracking,
     // Belgium
     if (hasListeners) {
       [self sendEventWithName:EVENT_TRACKING_STARTED body:@{}];
+        loc.desiredAccuracy = kCLLocationAccuracyBest;
+      loc.activityType = CLActivityTypeFitness;
+      [loc setAllowsBackgroundLocationUpdates:YES];
+      [loc setDistanceFilter:kCLDistanceFilterNone];
       [loc requestWhenInUseAuthorization];
       [loc startUpdatingLocation];
     }
@@ -82,16 +83,6 @@ RCT_REMAP_METHOD(stopTracking,
     [loc stopUpdatingLocation];
     resolve(0);
 }
-
-//RCT_EXPORT_METHOD(onPositionUpdate:(RCTResponseSenderBlock)onUpdate)
-//{
-//    [locationManager watchPosition:options success:^(TSLocation* location) {
-//        [self sendEvent:EVENT_WATCHPOSITION body:[location toDictionary]];
-//    } failure:^(NSError* error) {
-//        [self sendEvent:EVENT_ERROR body:@{@"type":@"location", @"code":@(error.code)}];
-//    }];
-//    success(@[]);
-//}
     
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations {
     CLLocation *point = locations.lastObject;
