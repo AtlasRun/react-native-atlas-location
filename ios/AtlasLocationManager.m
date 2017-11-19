@@ -61,10 +61,9 @@ RCT_REMAP_METHOD(startTracking,
     // Belgium
     if (hasListeners) {
       [self sendEventWithName:EVENT_TRACKING_STARTED body:@{}];
-        loc.desiredAccuracy = kCLLocationAccuracyBest;
       loc.activityType = CLActivityTypeFitness;
       [loc setAllowsBackgroundLocationUpdates:YES];
-      [loc setDistanceFilter:kCLDistanceFilterNone];
+      [loc setDistanceFilter:10];
       [loc requestWhenInUseAuthorization];
       [loc startUpdatingLocation];
     }
@@ -91,6 +90,7 @@ RCT_REMAP_METHOD(stopTracking,
                                                                    @"longitude": @(point.coordinate.longitude),
                                                                    @"horizontalAccuracy": @(point.horizontalAccuracy),
                                                                    @"timestamp": @([point.timestamp timeIntervalSince1970]),
+                                                                   @"howRecent": @([point.timestamp timeIntervalSinceNow]),
                                                                    @"speed": @(point.speed),
                                                                    }];
 }
