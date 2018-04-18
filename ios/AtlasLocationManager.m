@@ -11,6 +11,7 @@ static NSString *const EVENT_TRACKING_STOPPED    = @"trackingStopped";
   bool hasListeners;
     
   CLLocationManager *loc;
+    NSTimeInterval startTime;
 }
 
 RCT_EXPORT_MODULE();
@@ -58,6 +59,7 @@ RCT_REMAP_METHOD(startTracking,
                  startTrackingWithResolver:(RCTPromiseResolveBlock)resolve
                  rejecter:(RCTPromiseRejectBlock)reject)
 {
+    startTime = [[NSDate new] timeIntervalSince1970];
     // Belgium
     if (hasListeners) {
       [self sendEventWithName:EVENT_TRACKING_STARTED body:@{}];
@@ -80,11 +82,16 @@ RCT_REMAP_METHOD(stopTracking,
     }
 
     [loc stopUpdatingLocation];
+
     resolve(0);
 }
     
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations {
     CLLocation *point = locations.lastObject;
+    
+    NSTimeInterval time = [point.timestamp timeIntervalSince1970];
+    
+    if (time < startTime) { return; }
     [self sendEventWithName:EVENT_TRACKING_POSITION_UPDATED body:@{
                                                                    @"latitude": @(point.coordinate.latitude),
                                                                    @"longitude": @(point.coordinate.longitude),
