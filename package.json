@@ -1,6 +1,6 @@
 {
   "name": "react-native-atlas-location",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "React Native Atlas Location Component",
   "main": "index",
   "scripts": {},

@@ -11,7 +11,8 @@ static NSString *const EVENT_TRACKING_STOPPED    = @"trackingStopped";
   bool hasListeners;
     
   CLLocationManager *loc;
-    NSTimeInterval startTime;
+  NSTimeInterval startTime;
+  NSTimeInterval lastLocTimestamp;
 }
 
 RCT_EXPORT_MODULE();
@@ -21,6 +22,7 @@ RCT_EXPORT_MODULE();
     self = [super init];
     if (self) {
         loc = [CLLocationManager new];
+        lastLocTimestamp = -1;
         [loc setDelegate:self];
     }
 
@@ -45,6 +47,7 @@ RCT_EXPORT_MODULE();
       EVENT_TRACKING_STARTED, EVENT_TRACKING_STOPPED, EVENT_TRACKING_POSITION_UPDATED,
     ];
 }
+
 
 RCT_REMAP_METHOD(getRoughLocation,
                  getRoughLocationWithResolver:(RCTPromiseResolveBlock)resolve
@@ -89,14 +92,20 @@ RCT_REMAP_METHOD(stopTracking,
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations {
     CLLocation *point = locations.lastObject;
     
-    NSTimeInterval time = [point.timestamp timeIntervalSince1970];
+    NSTimeInterval timestamp = [point.timestamp timeIntervalSince1970];
     
-    if (time < startTime) { return; }
+    // Ignore points collected before the start
+    if (timestamp < startTime) { return; }
+    
+    // Ignore duplicates *exact* duplicates (Bug in iOS? Or RN is calling startTwice...)
+    if (timestamp == lastLocTimestamp) { return; }
+    lastLocTimestamp = timestamp;
+    
     [self sendEventWithName:EVENT_TRACKING_POSITION_UPDATED body:@{
                                                                    @"latitude": @(point.coordinate.latitude),
                                                                    @"longitude": @(point.coordinate.longitude),
                                                                    @"horizontalAccuracy": @(point.horizontalAccuracy),
-                                                                   @"timestamp": @([point.timestamp timeIntervalSince1970]),
+                                                                   @"timestamp": @(timestamp),
                                                                    @"howRecent": @([point.timestamp timeIntervalSinceNow]),
                                                                    @"speed": @(point.speed),
                                                                    }];
