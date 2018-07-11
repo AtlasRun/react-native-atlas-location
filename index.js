@@ -5,14 +5,14 @@ const AtlasLocationMangerEventEmitter = new NativeEventEmitter(AtlasLocationMana
 
 const Event = {
   StateChange: 'state_change',
-  TrackingPositionUpdated: 'tracking_position_updated'
-}
+  TrackingPositionUpdated: 'tracking_position_updated',
+};
 
 const State = {
   Init: 'init',
   Tracking: 'tracking',
   Ready: 'ready',
-}
+};
 
 // init - Haven't set up yet
 // permissionsFailed - Couldn't get permissions
@@ -27,15 +27,15 @@ function setState(newState) {
 
 AtlasLocationMangerEventEmitter.addListener(
   'trackingStarted',
-  () => setState(State.Tracking)
+  () => setState(State.Tracking),
 );
 
 AtlasLocationMangerEventEmitter.addListener(
   'trackingStopped',
   () => {
     odometer = 0;
-    setState(State.Ready)
-  }
+    setState(State.Ready);
+  },
 );
 
 lastTrackingPosition = null;
@@ -45,8 +45,8 @@ AtlasLocationMangerEventEmitter.addListener(
     if (lastTrackingPosition != null) {
       const meters = haversineDistance(
         [lastTrackingPosition.latitude, lastTrackingPosition.longitude],
-        [e.latitude, e.longitude]
-      )
+        [e.latitude, e.longitude],
+      );
       odometer += meters;
     }
 
@@ -54,9 +54,9 @@ AtlasLocationMangerEventEmitter.addListener(
     emit(Event.TrackingPositionUpdated, {
       ...e,
       accuracy: e.horizontalAccuracy,
-      odometer
-    })
-  }
+      odometer,
+    });
+  },
 );
 
 
@@ -81,15 +81,42 @@ function resetOdometer(val) {
   odometer = val;
 }
 
+function genId() {
+  let text = '';
+  const possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+
+  for (let i=0; i < 10; i++) { text += possible.charAt(Math.floor(Math.random() * possible.length)); }
+
+  return text;
+}
+
 const eventHandlers = {};
 function on(name, f) {
-  eventHandlers[name] = eventHandlers[name] || [];
-  eventHandlers[name].push(f);
+  const id = genId();
+  eventHandlers[name] = eventHandlers[name] || {};
+  eventHandlers[name][id] = f;
+  return id;
+}
+
+
+function off(name, id) {
+  const handlers = eventHandlers[name];
+  if (handlers == null) { 
+    console.log(`[RNAtlasLocation] - Couldn't deregister event named ${name}, it didn't exist`);
+    return; 
+  }
+
+  if (handlers[id] == null) {
+    console.log(`[RNAtlasLocation] - Couldn't deregister function for event ${name} with id ${id}. Id was not registered.`);
+    return; 
+  }
+
+  delete handlers[id];
 }
 
 function emit(name, args) {
-  const ev = eventHandlers[name] || [];
-  for (var f of ev) { f(args); }
+  const ev = eventHandlers[name] || {};
+  for (const f of Object.values(ev)) { f(args); }
 }
 
 function haversineDistance(coords1, coords2) {
@@ -97,23 +124,23 @@ function haversineDistance(coords1, coords2) {
     return x * Math.PI / 180;
   }
 
-  var lon1 = coords1[0];
-  var lat1 = coords1[1];
+  const lon1 = coords1[0];
+  const lat1 = coords1[1];
 
-  var lon2 = coords2[0];
-  var lat2 = coords2[1];
+  const lon2 = coords2[0];
+  const lat2 = coords2[1];
 
-  var R = 6371; // km
+  const R = 6371; // km
 
-  var x1 = lat2 - lat1;
-  var dLat = toRad(x1);
-  var x2 = lon2 - lon1;
-  var dLon = toRad(x2)
-  var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+  const x1 = lat2 - lat1;
+  const dLat = toRad(x1);
+  const x2 = lon2 - lon1;
+  const dLon = toRad(x2);
+  const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
     Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
     Math.sin(dLon / 2) * Math.sin(dLon / 2);
-  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-  var d = R * c;
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  const d = R * c;
 
   return d*1000;
 }
@@ -124,6 +151,7 @@ export default {
   startTracking,
   stopTracking,
   on,
+  off,
   Event,
   State,
-}
+};
