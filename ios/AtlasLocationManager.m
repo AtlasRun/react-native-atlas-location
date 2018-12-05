@@ -68,8 +68,10 @@ RCT_REMAP_METHOD(startTracking,
       [self sendEventWithName:EVENT_TRACKING_STARTED body:@{}];
       loc.activityType = CLActivityTypeFitness;
       [loc setAllowsBackgroundLocationUpdates:YES];
-      [loc setDistanceFilter:10];
+      [loc setDistanceFilter:kCLDistanceFilterNone];
+      [loc setDesiredAccuracy:kCLLocationAccuracyBest];
       [loc requestWhenInUseAuthorization];
+      [loc setPausesLocationUpdatesAutomatically: NO];
       [loc startUpdatingLocation];
     }
     resolve(0);
