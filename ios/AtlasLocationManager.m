@@ -101,7 +101,7 @@ RCT_REMAP_METHOD(stopTracking,
     
     // Ignore duplicates *exact* duplicates (Bug in iOS? Or RN is calling startTwice...)
     double diff = ABS(timestamp - lastLocTimestamp);
-    if (diff < 0.01) { return; }
+    if (diff < 5.00) { return; }
     lastLocTimestamp = timestamp;
     
     [self sendEventWithName:EVENT_TRACKING_POSITION_UPDATED body:@{
